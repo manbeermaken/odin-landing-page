@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+.section-1{
+    background-color: #1F2937;
+    color: white;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 900px;
+}
+.logo{
+    font-size: 24px;
+}
+.menu{
+    display: flex;
+    gap: 45px;
+}
+.menu p{
+    font-size: 18px;
+}
+.hero-box{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 212px;
+    padding-bottom: 100px;
+}.hero-left{
+    padding-top: 100px;
+}
+.hero-left h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero-left h2{
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.button {
+    background-color: #3882f6;
+    font-size: 18px;
+    padding: 8px 30px 8px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+
+}
+.hero-right img{
+    height: 400px;
+    width: auto;
+}
+.section-2 h1{
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    color: #1f2937;
+    padding-top: 35px;
+    margin-bottom: 40px;
+}
+.information-box{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.box-image{
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #3882f6;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxes p{
+    font-weight: 300;
+    font-size: 18px;
+    color: #1F2937;
+}
+.section-3{
+    background-color: #E5e7eb;
+    height: 400px;
+    margin-top: 200px;
+}
+.quote h1{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    padding-top: 150px;
+    color: #1f2937;
+    width: 700px;
+    padding-left: 470px;
+}
+.author{
+    text-align: center;
+    padding-left: 590px;
+}
+.section-4{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    gap: 225px;
+    color: #E5e7eb;
+    padding: 30px 80px;
+    border-radius: 20px;
+}
+.left h1{
+    font-size: 30px;
+}
+.left h2{
+    font-size: 18px;
+    font-weight: 300;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #E5e7eb;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.right h1{
+    font-size: 24px;
+}
+.footer{
+    background-color: #1f2937;
+    color: #E5e7eb;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    font-size: 20px;
+    font-weight: 600;
+}
